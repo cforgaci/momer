@@ -1,10 +1,15 @@
 ---
-title: "momer - "
+title: "momer: Exposing the Python library momepy in R"
 author:
   - name: Claudiu Forgaci
     orcid: 0000-0003-3218-5102
     affiliations:
       - "Department of Urbanism, Delft University of Technology"
+    
+  - name: John Doe
+    orcid: 0000-0000-0000-0000
+    affiliations:
+      - "Digital Competence Center, Delft University of Technology"
 
 date: today
 date-format: iso

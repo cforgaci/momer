@@ -22,9 +22,21 @@ go? Briefly describe all participants and the skills they will bring
 to the project.
 -->
 
-Claudiu Forgaci ...
+**Claudiu Forgaci** is assistant professor of urban design and analytics engaged
+in urban morphology research. Claudiu is experienced in R package development
+(see [rcrisp](https://github.com/CityRiverSpaces/rcrisp),
+[rcoins](https://github.com/CityRiverSpaces/rcoins), and [visor](https://github.com/CityRiverSpaces/visor)),
+he is a member of the Spatial Data Science across Languages. He is also one of
+the initiators of the [Rbanism community](https://rbanism.org/) promoting
+reproducibility, automation and scalability in urbanism research using R.
+Claudiu will lead the development of `momer`.
 
-?? is a research software engineer at the TU Delft Digital Competence Center ...
+**John Doe** is a research software engineer at the TU Delft Digital Competence
+Center ... 
+**Jane Doe** is a research software engineer at the TU Delft Digital Competence
+Center ... 
+John and Jane will carry out the software engineering work planned in this
+project with a shared 0.4FTE for the planned duration of the project.
 
 
 ## Contributors
@@ -33,9 +45,9 @@ Who are the people who have actively helped with this proposal but
 won't necessarily be on the core project team later?
 -->
 
-Jakub Nowosad?
-Robin Lovelace?
-Martin Fleischmann?
+The creator of `momepy` **Martin Fleischmann** and members of the SDSL community
+**Robin Lovelace**, **???** and **???** provided input at the proposal stage.
+<!--TODO specify content of active help-->
 
 ## Consulted
 <!--
@@ -44,5 +56,6 @@ proposal? This should include any R Consortium & ISC members who the
 proposal has been discussed with.
 -->
 
-<!-- TODO Do we know someone whom we can consult? -->
+ISC member **Josiah Parry**<!--TODO to be contacted-->, also member of the SDSL community, provided
+feedback on the proposal. <!--TODO specify content of feedback-->
 
