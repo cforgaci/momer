@@ -21,4 +21,15 @@ It is important to cover:
 -->
 ```
 
+Urban morphometrics is an emerging sub-field of urban morphology that enables
+scalable quantitative analysis of urban form. <!-- TODO ref. to Fleischmann -->
+The field of urban morphometrics is inherently programmatic and has been heavily
+driven and promoted by the Python library [`momepy`]() . While `momepy` has
+gained quite some prominence, its user base does not reach beyond Python. This
+is a problem because 
+
+By expanding the tools of morphometrics to the R community 
+
+Current R packages, `foot`, `vectormetrics`
+
 An example in-text citation [@wickham2016].

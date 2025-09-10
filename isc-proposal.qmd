@@ -1,10 +1,10 @@
 ---
-title: "Proposal Title"
+title: "momer - "
 author:
-  - name: Annie Easley
-    orcid: 5555-5555-5555-5555
+  - name: Claudiu Forgaci
+    orcid: 0000-0003-3218-5102
     affiliations:
-      - "Lewis Research Center, National Aeronautics and Space Administration"
+      - "Department of Urbanism, Delft University of Technology"
 
 date: today
 date-format: iso
@@ -17,11 +17,6 @@ format:
       - right=1.25in
 bibliography: references.bib
 ---
-
-# 🚧🚧🚧 UNDER CONSTRUCTION 🚧🚧🚧
-
-This repository is currently being revisited.
-An update will be released in early September 2025.
 
 {{< include proposal/00-exec-summary.qmd >}}
 

@@ -12,6 +12,19 @@ important because projects need to get up and running quickly.
  - [ ] Reporting framework
 -->
 
+To enable collaboration and contributions, we will set up the project on
+GitHub. The repository will include guidelines for contributors,  a code of
+conduct, and a `README.md` file with an overview of the project.
+
+A project team will be set up to track tasks and milestones, and issues
+will be used for feature requests and bug reports. Reporting will be done
+quarterly, with updates shared on the R Consortium blog and social media
+platforms to keep the community informed of progress.
+
+We aim to release `momer` under the permissive Apache 2.0 license which is
+compatible with the BSD-3-Clause license of `momepy`. `momer` will only wrap
+`momepy`, i.e., call it at runtime, which means that no BSD-licensed code is
+redistributed and so mentioning the license in the documentation should suffice.
 
 ## Technical delivery
 <!--
@@ -21,6 +34,31 @@ provide at least a high-level description of the implementation.
 Including target dates is really important as you need to be committed
 and the ISC need to have a means of tracking delivery
 -->
+
+The project will be structured by the following milestones:
+
+1. Initial set-up and basic wrappers (Month 1-2):
+   - Set up the GitHub repository with necessary documentation and contribution guidelines.
+   - Implement basic wrappers for core `momepy` functions using `reticulate`.
+   - Initial testing to ensure functionality.
+   
+2. Comprehensive wrappers and testing (Month 3-6):
+   - Expand wrappers to cover all major functionalities of `momepy`.
+   - Develop a suite of unit tests to ensure reliability and correctness.
+   - Begin drafting detailed documentation for each function.
+   
+3. Documentation and vignettes (Month 7-10):
+   - Set up automatic synchronisation of `momepy` documentation with `momer` on CI
+   - Finalize comprehensive documentation, including examples and use cases.
+   - Create vignettes demonstrating typical workflows and applications of `momer`.
+   - Conduct user testing and gather feedback for improvements.
+   
+4. Final review and release (Month 11-12):
+   - Address any issues or feedback from user testing.
+   - Perform a final review of the code base and documentation.
+   - Prepare for the official release of `momer` on CRAN and GitHub.
+   - Publicize the release through blog posts, social media, and relevant forums.
+     <!-- TODO dissemination and call for contribution from the developer community as well -->
 
 ## Other aspects
 
@@ -37,6 +75,18 @@ to be shared quarterly on the R Consortium blog.
  - [ ] UseR!
  - [ ] ISC meetings
 -->
+
+The project will be open-source, hosted on GitHub, and licensed under the Apache
+2.0 license. This will enable broad use and contributions from the community.
+
+Updates on progress and milestones achieved will be shared on the R Consortium
+blog and on the Rbanism community's blog on a quarterly basis. Updates will
+also be shared on the social media platforms Mastodon (Fosstodon), LinkedIn and
+Bluesky. To promote the wide adoption of `momer`, we will announce its release
+at the UseR! conference and other similar events where the R spatial community
+is present. We also aim to introduce the package in the International Seminar
+of Urban Form (ISUF) where most of the research community conducting urban
+morphology analysis is present.
 
 ## Budget & funding plan
 
@@ -55,3 +105,13 @@ to the project and the project period. The ISC reserves the right to vet
 how funds are used for each project separately. If in doubt, please reach
 out to us.
 -->
+
+**TODO**: I think this is simply the division of the estimated labor cost
+per milestone. Labor cost to be checked with the DCC.
+
+The requested budget will be used for labor costs divided by period, as follows:
+
+1. Initial set-up and basic wrappers (Month 1-2): €?
+2. Comprehensive wrappers and testing (Month 3-6): €?
+3. Documentation and vignettes (Month 7-10): €?
+4. Final review and release (Month 11-12): €?

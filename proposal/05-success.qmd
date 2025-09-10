@@ -9,14 +9,43 @@ thorough understanding going in of what the risks are to delivery
 What does success look like?
 -->
 
+A successful project will deliver a functional and well-dcumented `momer`
+package. The package will provide R users with access to the functionalities
+of the Python library `momepy`, enabling them to perform urban morphometric
+analyses within R.
+
 ## Measuring success
 <!--
 How will we know when success is achieved, what markers can we use
 along the way
 -->
 
+Success can be measured through several key indicators:
+
+- Timely completion of all project milestones;
+- Positive feedback from user testing and community engagement;
+- Adoption of the `momer` package by the R community, as seen in the
+  number of downloads, citations, and contributions;
+- Successful integration and functionality of all wrapped `momepy` features.
+- Synchronised documentation between `momepy` and `momer` triggered at every new
+  `momepy` release;
+- Synchronised, comprehensive and clear documentation, including vignettes and
+  examples, aligned with CRAN policies;
+- Active post-release maintenance and updates, reflecting ongoing community
+  needs and developments in the field of urban morphometrics.
+
 ## Future work
 <!--
 How could this be extended / developed in the future by yourself
 and/or the community in general?
 -->
+
+`momer` is expression of the sustained interest of the Spatial Data Science
+across Languages (SDSL) community in cross-language projects. It is part of
+the `momex` initiative aiming to build a cross-language infrastructure for
+morphometrics. In the long term, we aim to gradually develop low-level
+infrastructure with bindings to multiple languages, including R. Carried out
+in an incremental way and targeting the most challenging use cases, such an
+infrastructure will lead to higher performance
+
+
