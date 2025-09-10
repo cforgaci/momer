@@ -1,6 +1,6 @@
 # momer: Exposing the Python library momepy in R
 
-# 🚧🚧🚧 UNDER CONSTRUCTION 🚧🚧🚧
+🚧🚧🚧 **UNDER CONSTRUCTION** 🚧🚧🚧
 
 `momer` is an R wrapper for the
 [`momepy`](https://docs.momepy.org/en/stable/index.html)
