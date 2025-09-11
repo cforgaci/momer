@@ -2291,10 +2291,10 @@ It is important to cover:
  - [ ] Brief summary of existing work and previous attempts (e.g., relevant R packages)
  - [ ] If proposing changes to R itself: letter of support from R Core member
 -->
-<p>Urban morphometrics is an emerging sub-field of urban morphology that enables scalable quantitative analysis of urban form. <!-- TODO ref. to Fleischmann --> The field of urban morphometrics is inherently programmatic and has been heavily driven and promoted by the Python library <a href><code>momepy</code></a> . While <code>momepy</code> has gained quite some prominence, its user base does not reach beyond Python. This is a problem because</p>
-<p>By expanding the tools of morphometrics to the R community</p>
-<p>Current R packages, <code>foot</code>, <code>vectormetrics</code></p>
-<p>An example in-text citation <span class="citation" data-cites="wickham2016">(<a href="#ref-wickham2016" role="doc-biblioref">Wickham 2016</a>)</span>.</p>
+<p>Urban morphometrics is an growing sub-field of urban morphology that enables scalable quantitative analysis of urban form. <!-- TODO ref. to Fleischmann --> The field of urban morphometrics is inherently programmatic and has been heavily driven and promoted by the Python library <a href="https://docs.momepy.org/en/stable/index.html"><code>momepy</code></a> <span class="citation" data-cites="fleischmann2019">(<a href="#ref-fleischmann2019" role="doc-biblioref"><strong>fleischmann2019?</strong></a>)</span>. While <code>momepy</code> has played an important role in making the quantitative analysis of urban form accessible to many, it is limited to users of the Python programming language.</p>
+<p>Moreover, a large part of urban morphology research is conducted with GUI-based tools and qualitative interpretation, which limits the kind of analytical questions that can be asked. Automated, reproducible and scalable urban morphology research can only be truly achieved in a programmatic way. Considering that those three objectives are central to the mission of the Rbanism community which the applicant has co-initiated and which has been growing steadily, <code>momer</code> is an opportunity to further promote those standards and enable quantitative research alongside <code>momepy</code>.</p>
+<p>Currently, a number of R packages provide some functionality for morphometric analysis, but they do not meet the level of comprehensiveness of <code>momepy</code>. Most prominent examples are the <code>foot</code> package <span class="citation" data-cites="foot2021">(<a href="#ref-foot2021" role="doc-biblioref">WorldPop Research Group, University of Southampton 2021</a>)</span>, which focuses on processing building footprints, and the <code>vectormetrics</code> package <span class="citation" data-cites="matuszek2024">(<a href="#ref-matuszek2024" role="doc-biblioref">Matuszek et al. 2024</a>)</span>, which provides tools for landscape and shape metrics. While the former is limited to building footprint analysis the latter is is only meant to analyse polygon data and is not specifically designed for the analysis of urban form elements.</p>
+<p><code>momer</code> will expose the R community (existing and new R users) to a comprehensive and up-to-date set of tools and methods for urban morphometrics assembled in <code>momepy</code> from a large portion of urban morphometrics literature.</p>
 </section>
 <section id="the-proposal" class="level1">
 <h1>The proposal</h1>
@@ -2348,15 +2348,15 @@ What does the high-level architecture look like?
 <!--
 What assumptions are you making that, if proven false, would invalidate the project?
 -->
-<p>One of the main assumptions is that, according to creator and maintainer of <code>momepy</code> Martin Fleischmann, with the upcoming major release, the <code>momepy</code> API will be kept stable, which will allow <code>momer</code> to be feasibly maintained.</p>
-<p>We also assume that Python documentation can be</p>
+<p>One of the main assumptions is that, according to creator and maintainer of <code>momepy</code> ???, with the upcoming major release, the <code>momepy</code> API will be kept stable, which will allow <code>momer</code> to be feasibly maintained.</p>
+<p>We also assume that there is a feasible way of mirroring the latest version of the documentation with every <code>momepy</code> release automatically.</p>
 </section>
 <section id="external-dependencies" class="level3">
 <h3 class="anchored" data-anchor-id="external-dependencies">External dependencies</h3>
 <!--
 What external dependencies does the project have (e.g. libraries, services, other projects, etc.)?
 -->
-<p>The project primarily depends on the wrapped Python library <code>momepy</code> and the R package <code>reticulate</code> used for wrapping.</p>
+<p>The project primarily depends on the wrapped Python library <code>momepy</code> and the R package <code>reticulate</code> used for wrapping. The user</p>
 </section>
 </section>
 </section>
@@ -2368,7 +2368,6 @@ What external dependencies does the project have (e.g. libraries, services, othe
 Covering the planning phase, this section should provide a relatively
 detailed plan of how work will start on the project. This section is
 important because projects need to get up and running quickly.
-
 
  - [ ] Setting up collaboration platform inc. code for contributors etc.
  - [ ] Licence decisions
@@ -2393,6 +2392,8 @@ and the ISC need to have a means of tracking delivery
 <ul>
 <li>Set up the GitHub repository with necessary documentation and contribution guidelines.</li>
 <li>Implement basic wrappers for core <code>momepy</code> functions using <code>reticulate</code>.</li>
+<li>Assess risks related to wrapping and devise a mitigation strategy.</li>
+<li>Specify data type translation from Python <code>sf</code>-compatible objects.</li>
 <li>Initial testing to ensure functionality.</li>
 </ul></li>
 <li>Comprehensive wrappers and testing (Month 3-6):
@@ -2413,7 +2414,8 @@ and the ISC need to have a means of tracking delivery
 <li>Address any issues or feedback from user testing.</li>
 <li>Perform a final review of the code base and documentation.</li>
 <li>Prepare for the official release of <code>momer</code> on CRAN and GitHub.</li>
-<li>Publicize the release through blog posts, social media, and relevant forums. <!-- TODO dissemination and call for contribution from the developer community as well --></li>
+<li>Publicize the release through blog posts, social media, and relevant forums.</li>
+<li>Disseminate in the developer community (e.g., SDSL, ISUF, Rbanism) to attract contributions.</li>
 </ul></li>
 </ol>
 </section>
@@ -2452,14 +2454,14 @@ to the project and the project period. The ISC reserves the right to vet
 how funds are used for each project separately. If in doubt, please reach
 out to us.
 -->
-<p><strong>TODO</strong>: I think this is simply the division of the estimated labor cost per milestone. Labor cost to be checked with the DCC.</p>
 <p>The requested budget will be used for labor costs divided by period, as follows:</p>
 <ol type="1">
-<li>Initial set-up and basic wrappers (Month 1-2): €?</li>
-<li>Comprehensive wrappers and testing (Month 3-6): €?</li>
-<li>Documentation and vignettes (Month 7-10): €?</li>
-<li>Final review and release (Month 11-12): €?</li>
+<li>Initial set-up and basic wrappers (Month 1-2): €8,000</li>
+<li>Comprehensive wrappers and testing (Month 3-6): €16,000</li>
+<li>Documentation and vignettes (Month 7-10): €16,000</li>
+<li>Final review and release (Month 11-12): €8,000</li>
 </ol>
+<p>Total: €40,000</p>
 </section>
 </section>
 <section id="success" class="level1">
@@ -2473,7 +2475,7 @@ thorough understanding going in of what the risks are to delivery
 <!--
 What does success look like?
 -->
-<p>A successful project will deliver a functional and well-dcumented <code>momer</code> package. The package will provide R users with access to the functionalities of the Python library <code>momepy</code>, enabling them to perform urban morphometric analyses within R.</p>
+<p>A successful project will deliver a functional and well-documented <code>momer</code> package. The package will provide R users with access to the functionalities of the Python library <code>momepy</code>, enabling them to perform urban morphometric analyses within R.</p>
 </section>
 <section id="measuring-success" class="level2">
 <h2 class="anchored" data-anchor-id="measuring-success">Measuring success</h2>
@@ -2481,13 +2483,13 @@ What does success look like?
 How will we know when success is achieved, what markers can we use
 along the way
 -->
-<p>Success can be measured through several key indicators:</p>
+<p>Success can be measured against the following indicators:</p>
 <ul>
 <li>Timely completion of all project milestones;</li>
 <li>Positive feedback from user testing and community engagement;</li>
 <li>Adoption of the <code>momer</code> package by the R community, as seen in the number of downloads, citations, and contributions;</li>
-<li>Successful integration and functionality of all wrapped <code>momepy</code> features.</li>
-<li>Synchronised documentation between <code>momepy</code> and <code>momer</code> triggered at every new <code>momepy</code> release;</li>
+<li>Successful integration and functionality of all wrapped <code>momepy</code> features;</li>
+<li>Successful synchronisation of the documentation between <code>momepy</code> and <code>momer</code> triggered at every new <code>momepy</code> release;</li>
 <li>Synchronised, comprehensive and clear documentation, including vignettes and examples, aligned with CRAN policies;</li>
 <li>Active post-release maintenance and updates, reflecting ongoing community needs and developments in the field of urban morphometrics.</li>
 </ul>
@@ -2507,8 +2509,11 @@ and/or the community in general?
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-wickham2016" class="csl-entry" role="listitem">
-Wickham, Hadley. 2016. <em>Ggplot2: Elegant Graphics for Data Analysis</em>. Springer-Verlag New York. <a href="https://ggplot2.tidyverse.org">https://ggplot2.tidyverse.org</a>.
+<div id="ref-matuszek2024" class="csl-entry" role="listitem">
+Matuszek, Tomasz, Jakub Nowosad, Marco Sciaini, Maximillian H. K. Hesselbarth, and Yunyao Ma. 2024. <em>Vectormetrics: Landscape Metrics for Categorical Map Patterns in Vector Data</em>.
+</div>
+<div id="ref-foot2021" class="csl-entry" role="listitem">
+WorldPop Research Group, University of Southampton. 2021. <em>Foot: An r Package for Processing Building Footprint Morphometrics</em>. <a href="https://github.com/wpgp/foot">https://github.com/wpgp/foot</a>.
 </div>
 </div></section></div></main>
 <!-- /main column -->
