@@ -7,7 +7,6 @@ how will you recover from them?
 This is where the proposal should be outlined.
 -->
 
-
 ## Overview
 <!--
 At a high-level address what your proposal is and how it will address
@@ -18,21 +17,13 @@ section.
 Include concrete actions you will take and estimated timeline.
 -->
 
-The project aims to develop `momer`, an R package that wraps the Python
-library `momepy` using the `reticulate` package and sets up a synchronised
-documentation system.
+The project aims to develop `momer`, an R package that wraps the Python library `momepy` using the `reticulate` package and a mirrored documentation.
 
-`momer` will enable R users to perform urban morphometric analyses without
-needing to switch to Python, thereby broadening the reach of `momepy` and
-increasing the adoption of morphometric methodologies.
+`momer` will enable R users to perform urban morphometric analyses without needing to switch to Python, thereby broadening the reach of `momepy` and increasing the adoption of morphometric methodologies.
 
-The development of `momer` is timely as `momepy` is approaching a major
-release (v1.0.0) which will stabilise its API, making it easier to maintain the
-R wrapper in the long term.
+The development of `momer` is timely as `momepy` is approaching a major release (v1.0.0) which will stabilise its API, making it easier to maintain the R wrapper in the long term.
 
-The project will be structured around four main
-milestones over a ???-month period, from initial setup and basic wrappers to 
-final review and release.
+The project will be structured around four main milestones over a 12-month period, from initial setup and basic wrappers to final review and release.
 
 ## Detail
 <!--
@@ -42,16 +33,13 @@ against the problem.
 Depending on project type the detail section should include:
 -->
 
-
-
 ### Minimum Viable Product
 
 <!--
 What is the smallest thing you can build that delivers value to your users?
 -->
 
-The minimum viable product is a package that wraps all core functions of
-`momepy` and mirrors its documentation (without synchronising).
+The minimum viable product is an R package that (1) wraps all core functions of `momepy`, (2) mirrors its documentation, and (3) includes a detailed documentation for maintainers on how to update the wrappers and documentation with future `momepy` releases.
 
 ### Architecture
 
@@ -59,14 +47,9 @@ The minimum viable product is a package that wraps all core functions of
 What does the high-level architecture look like?
 -->
 
-`momer` will wrap `momepy` functions with `reticulate` and will be organised
-into the same nine modules, namely: "Managing morphological elements",
-"Measuring dimension", "Measuring shape", "Measuring spatial distribution",
-"Measuring intensity", "Measuring diversity", "Measuring connectivity",
-"Measuring streetscape", and "Data preprocessing".
+`momer` will wrap exported `momepy` functions with `reticulate` and will be organised into the same nine modules, namely: `elements`, `dimension`, `shape`, `distribution`, `intensity`, `diversity`, `connectivity`, `streetscape`, and `preprocessing`.
 
-`momer` will also be set up with a script on CI to automate the generation of
-documentation
+We also aim to set up a workflow to automate the generation of `roxygen2` documentation to be used for the generation of a `pkgdown` website. 
 
 ### Assumptions
 
@@ -74,12 +57,7 @@ documentation
 What assumptions are you making that, if proven false, would invalidate the project?
 -->
 
-One of the main assumptions is that, according to creator and maintainer of
-`momepy` ???, with the upcoming major release, the `momepy` API
-will be kept stable, which will allow `momer` to be feasibly maintained.
-
-We also assume that there is a feasible way of mirroring the latest version
-of the documentation with every `momepy` release automatically.
+One of the main assumptions is that with the upcoming major release, the `momepy` API will remain stable, which will allow `momer` to be feasibly maintained. We also assume that there is a feasible way of mirroring the latest version of the documentation with every `momepy` release automatically.
 
 ### External dependencies
 
@@ -87,5 +65,4 @@ of the documentation with every `momepy` release automatically.
 What external dependencies does the project have (e.g. libraries, services, other projects, etc.)?
 -->
 
-The project primarily depends on the wrapped Python library `momepy` and the
-R package `reticulate` used for wrapping. The user 
+The project primarily depends on the wrapped Python library `momepy` and the R package `reticulate` used for wrapping. The user needs to have Python installed with `momepy` and its dependencies.

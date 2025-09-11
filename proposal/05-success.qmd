@@ -40,12 +40,6 @@ How could this be extended / developed in the future by yourself
 and/or the community in general?
 -->
 
-`momer` is expression of the sustained interest of the Spatial Data Science
-across Languages (SDSL) community in cross-language projects. It is part of
-the `momex` initiative aiming to build a cross-language infrastructure for
-morphometrics. In the long term, we aim to gradually develop low-level
-infrastructure with bindings to multiple languages, including R. Carried out
-in an incremental way and targeting the most challenging use cases, such an
-infrastructure will lead to higher performance
+`momer` is expression of the sustained interest of the Spatial Data Science across Languages (SDSL) community in cross-language projects. It is part of the `momex` initiative aiming to build a cross-language infrastructure for morphometrics. In the long term, we aim to gradually develop low-level infrastructure enabling bindings to multiple languages, including R. Carried out in an incremental way and targeting the most challenging use cases, such an infrastructure will lead to improved performance and maximised community exposure. The `momer` project is instrumental to that end as it will grow a critical mass of users beyond Python and will help identify pressing high-level cross-language challenges.
 
 

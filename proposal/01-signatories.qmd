@@ -9,13 +9,15 @@ An optional section would be for R-Core signatories where changes to R
 are proposed.
 -->
 
-Community members of:
+Members of:
 
-- [Rbanism](https://rbanism.org/)
-- [r-spatial](https://r-spatial.org/)
-- [geocompr](https://r.geocompx.org/)
-- [SDSL](https://spatial-data-science.github.io/)
-- ???
+- the [Rbanism community](https://rbanism.org/), namely ,
+- the [r-spatial community](https://r-spatial.org/), namely ,
+- the [geocompr community](https://r.geocompx.org/), namely ,
+- the [ISUF community]() namely , and 
+- the [SDSL community](https://spatial-data-science.github.io/) namely  
+
+have read this proposal and confirm the relevance of this project and its expected impact on the R ecosystem.
 
 ## Project team
 <!--
@@ -25,23 +27,9 @@ go? Briefly describe all participants and the skills they will bring
 to the project.
 -->
 
-**Claudiu Forgaci** is assistant professor of urban design and analytics engaged
-in urban morphology research. Claudiu is experienced in R package development
-(see [rcrisp](https://github.com/CityRiverSpaces/rcrisp),
-[rcoins](https://github.com/CityRiverSpaces/rcoins), and [visor](https://github.com/CityRiverSpaces/visor)),
-he is a member of the Spatial Data Science across Languages (SDSL) community.
-He is also one of the initiators of the [Rbanism community](https://rbanism.org/)
-promoting reproducibility, automation and scalability in urbanism research
-using R. Claudiu will lead the development of `momer` and will `maintain` it
-after completion.
+**Claudiu Forgaci** is assistant professor of urban design and analytics engaged in urban morphology research, experienced in R package development (see [rcrisp](https://github.com/CityRiverSpaces/rcrisp), [rcoins](https://github.com/CityRiverSpaces/rcoins), and [visor](https://github.com/CityRiverSpaces/visor)). He is also a member of the Spatial Data Science across Languages (SDSL) community with special interest in cross-language projects. He is also one of the initiators of the [Rbanism community](https://rbanism.org/) promoting reproducibility, automation and scalability in urbanism research using R. Claudiu will lead the development of `momer` and he will maintain it after completion.
 
-**John Doe** is a research software engineer at the TU Delft Digital Competence
-Center ... 
-**Jane Doe** is a research software engineer at the TU Delft Digital Competence
-Center ... 
-John and Jane will carry out the software engineering work planned in this
-project with a shared 0.4FTE for the planned duration of the project.
-
+**John Doe** is a research software engineer at the TU Delft Digital Competence Center ... **Jane Doe** is a research software engineer at the TU Delft Digital Competence Center ...John and Jane will carry out the software engineering work planned in this project with a shared 0.4FTE for the planned duration of the project.
 
 ## Contributors
 <!--
@@ -49,9 +37,7 @@ Who are the people who have actively helped with this proposal but
 won't necessarily be on the core project team later?
 -->
 
-The creator of `momepy` **???** and members of the SDSL community
-**???**, **???** and **???** provided input at the proposal stage.
-<!--TODO specify content of active help-->
+The creator of `momepy` **???** and members of the SDSL community **???**, **???** and **???** provided input at the proposal stage. <!--TODO specify content of active help-->
 
 ## Consulted
 <!--
@@ -60,6 +46,5 @@ proposal? This should include any R Consortium & ISC members who the
 proposal has been discussed with.
 -->
 
-ISC member **Name Surname**<!--**Josiah Parry**--><!--TODO to be contacted-->, also member of the SDSL community, provided
-feedback on the proposal. <!--TODO specify content of feedback-->
+ISC member **???**<!--**Josiah Parry**--><!--TODO to be contacted-->, also member of the SDSL community, provided feedback on the proposal. <!--TODO specify content of feedback-->
 

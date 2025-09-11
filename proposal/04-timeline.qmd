@@ -39,8 +39,8 @@ The project will be structured by the following milestones:
 1. Initial set-up and basic wrappers (Month 1-2):
    - Set up the GitHub repository with necessary documentation and contribution guidelines.
    - Implement basic wrappers for core `momepy` functions using `reticulate`.
-   - Assess risks related to wrapping and devise a mitigation strategy.
-   - Specify data type translation from Python `sf`-compatible objects.
+   - Devise a mitigation strategy for risks related to wrapping.
+   - Specify data type translation from Python to `sf` objects.
    - Initial testing to ensure functionality.
    
 2. Comprehensive wrappers and testing (Month 3-6):
