@@ -21,15 +21,11 @@ It is important to cover:
 -->
 ```
 
-Urban morphometrics is an emerging sub-field of urban morphology that enables
-scalable quantitative analysis of urban form. <!-- TODO ref. to Fleischmann -->
-The field of urban morphometrics is inherently programmatic and has been heavily
-driven and promoted by the Python library [`momepy`]() . While `momepy` has
-gained quite some prominence, its user base does not reach beyond Python. This
-is a problem because 
+Urban morphometrics is an growing sub-field of urban morphology that enables scalable quantitative analysis of urban form. <!-- TODO ref. to Fleischmann --> The field of urban morphometrics is inherently programmatic and has been heavily driven and promoted by the Python library [`momepy`](https://docs.momepy.org/en/stable/index.html) [@fleischmann2019]. While `momepy` has played an important role in making the quantitative analysis of urban form accessible to many, it is limited to users of the Python programming language. 
 
-By expanding the tools of morphometrics to the R community 
+Moreover, a large part of urban morphology research is conducted with GUI-based tools and qualitative interpretation, which limits the kind of analytical questions that can be asked. Automated, reproducible and scalable urban morphology research can only be truly achieved in a programmatic way. Considering that those three objectives are central to the mission of the Rbanism community which the applicant has co-initiated and which has been growing steadily, `momer` is an opportunity to further promote those standards and enable quantitative research alongside `momepy`.
 
-Current R packages, `foot`, `vectormetrics`
+Currently, a number of R packages provide some functionality for morphometric analysis, but they do not meet the level of comprehensiveness of `momepy`. Most prominent examples are the `foot` package [@foot2021], which focuses on processing building footprints, and the `vectormetrics` package [@matuszek2024], which provides tools for landscape and shape metrics. While the former is limited to building footprint analysis the latter is is only meant to analyse polygon data and is not specifically designed for the analysis of urban form elements.
 
-An example in-text citation [@wickham2016].
+`momer` will expose the R community (existing and new R users) to a comprehensive and up-to-date set of tools and methods for urban morphometrics assembled in `momepy` from a large portion of urban morphometrics literature.
+

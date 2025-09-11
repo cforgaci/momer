@@ -6,14 +6,13 @@ Covering the planning phase, this section should provide a relatively
 detailed plan of how work will start on the project. This section is
 important because projects need to get up and running quickly.
 
-
  - [ ] Setting up collaboration platform inc. code for contributors etc.
  - [ ] Licence decisions
  - [ ] Reporting framework
 -->
 
 To enable collaboration and contributions, we will set up the project on
-GitHub. The repository will include guidelines for contributors,  a code of
+GitHub. The repository will include guidelines for contributors, a code of
 conduct, and a `README.md` file with an overview of the project.
 
 A project team will be set up to track tasks and milestones, and issues
@@ -40,6 +39,8 @@ The project will be structured by the following milestones:
 1. Initial set-up and basic wrappers (Month 1-2):
    - Set up the GitHub repository with necessary documentation and contribution guidelines.
    - Implement basic wrappers for core `momepy` functions using `reticulate`.
+   - Assess risks related to wrapping and devise a mitigation strategy.
+   - Specify data type translation from Python `sf`-compatible objects.
    - Initial testing to ensure functionality.
    
 2. Comprehensive wrappers and testing (Month 3-6):
@@ -58,7 +59,7 @@ The project will be structured by the following milestones:
    - Perform a final review of the code base and documentation.
    - Prepare for the official release of `momer` on CRAN and GitHub.
    - Publicize the release through blog posts, social media, and relevant forums.
-     <!-- TODO dissemination and call for contribution from the developer community as well -->
+   - Disseminate in the developer community (e.g., SDSL, ISUF, Rbanism) to attract contributions.
 
 ## Other aspects
 
@@ -106,12 +107,11 @@ how funds are used for each project separately. If in doubt, please reach
 out to us.
 -->
 
-**TODO**: I think this is simply the division of the estimated labor cost
-per milestone. Labor cost to be checked with the DCC.
-
 The requested budget will be used for labor costs divided by period, as follows:
 
-1. Initial set-up and basic wrappers (Month 1-2): €?
-2. Comprehensive wrappers and testing (Month 3-6): €?
-3. Documentation and vignettes (Month 7-10): €?
-4. Final review and release (Month 11-12): €?
+1. Initial set-up and basic wrappers (Month 1-2): €8,000
+2. Comprehensive wrappers and testing (Month 3-6): €16,000
+3. Documentation and vignettes (Month 7-10): €16,000
+4. Final review and release (Month 11-12): €8,000
+
+Total: €40,000

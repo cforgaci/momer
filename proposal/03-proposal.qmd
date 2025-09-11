@@ -75,10 +75,11 @@ What assumptions are you making that, if proven false, would invalidate the proj
 -->
 
 One of the main assumptions is that, according to creator and maintainer of
-`momepy` Martin Fleischmann, with the upcoming major release, the `momepy` API
+`momepy` ???, with the upcoming major release, the `momepy` API
 will be kept stable, which will allow `momer` to be feasibly maintained.
 
-We also assume that Python documentation can be 
+We also assume that there is a feasible way of mirroring the latest version
+of the documentation with every `momepy` release automatically.
 
 ### External dependencies
 
@@ -87,4 +88,4 @@ What external dependencies does the project have (e.g. libraries, services, othe
 -->
 
 The project primarily depends on the wrapped Python library `momepy` and the
-R package `reticulate` used for wrapping. 
+R package `reticulate` used for wrapping. The user 

@@ -9,7 +9,7 @@ thorough understanding going in of what the risks are to delivery
 What does success look like?
 -->
 
-A successful project will deliver a functional and well-dcumented `momer`
+A successful project will deliver a functional and well-documented `momer`
 package. The package will provide R users with access to the functionalities
 of the Python library `momepy`, enabling them to perform urban morphometric
 analyses within R.
@@ -20,15 +20,15 @@ How will we know when success is achieved, what markers can we use
 along the way
 -->
 
-Success can be measured through several key indicators:
+Success can be measured against the following indicators:
 
 - Timely completion of all project milestones;
 - Positive feedback from user testing and community engagement;
 - Adoption of the `momer` package by the R community, as seen in the
   number of downloads, citations, and contributions;
-- Successful integration and functionality of all wrapped `momepy` features.
-- Synchronised documentation between `momepy` and `momer` triggered at every new
-  `momepy` release;
+- Successful integration and functionality of all wrapped `momepy` features;
+- Successful synchronisation of the documentation between `momepy` and `momer`
+  triggered at every new `momepy` release;
 - Synchronised, comprehensive and clear documentation, including vignettes and
   examples, aligned with CRAN policies;
 - Active post-release maintenance and updates, reflecting ongoing community
