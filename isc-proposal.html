@@ -2241,14 +2241,15 @@ accept outside input is also a good marker for project delivery.
 An optional section would be for R-Core signatories where changes to R
 are proposed.
 -->
-<p>Community members of:</p>
+<p>Members of:</p>
 <ul>
-<li><a href="https://rbanism.org/">Rbanism</a></li>
-<li><a href="https://r-spatial.org/">r-spatial</a></li>
-<li><a href="https://r.geocompx.org/">geocompr</a></li>
-<li><a href="https://spatial-data-science.github.io/">SDSL</a></li>
-<li>???</li>
+<li>the <a href="https://rbanism.org/">Rbanism community</a>, namely ,</li>
+<li>the <a href="https://r-spatial.org/">r-spatial community</a>, namely ,</li>
+<li>the <a href="https://r.geocompx.org/">geocompr community</a>, namely ,</li>
+<li>the <a href>ISUF community</a> namely , and</li>
+<li>the <a href="https://spatial-data-science.github.io/">SDSL community</a> namely</li>
 </ul>
+<p>have read this proposal and confirm the relevance of this project and its expected impact on the R ecosystem.</p>
 <section id="project-team" class="level2">
 <h2 class="anchored" data-anchor-id="project-team">Project team</h2>
 <!--
@@ -2257,8 +2258,8 @@ the proposal gets accepted and are already signed up and rearing to
 go? Briefly describe all participants and the skills they will bring
 to the project.
 -->
-<p><strong>Claudiu Forgaci</strong> is assistant professor of urban design and analytics engaged in urban morphology research. Claudiu is experienced in R package development (see <a href="https://github.com/CityRiverSpaces/rcrisp">rcrisp</a>, <a href="https://github.com/CityRiverSpaces/rcoins">rcoins</a>, and <a href="https://github.com/CityRiverSpaces/visor">visor</a>), he is a member of the Spatial Data Science across Languages (SDSL) community. He is also one of the initiators of the <a href="https://rbanism.org/">Rbanism community</a> promoting reproducibility, automation and scalability in urbanism research using R. Claudiu will lead the development of <code>momer</code> and will <code>maintain</code> it after completion.</p>
-<p><strong>John Doe</strong> is a research software engineer at the TU Delft Digital Competence Center … <strong>Jane Doe</strong> is a research software engineer at the TU Delft Digital Competence Center … John and Jane will carry out the software engineering work planned in this project with a shared 0.4FTE for the planned duration of the project.</p>
+<p><strong>Claudiu Forgaci</strong> is assistant professor of urban design and analytics engaged in urban morphology research, experienced in R package development (see <a href="https://github.com/CityRiverSpaces/rcrisp">rcrisp</a>, <a href="https://github.com/CityRiverSpaces/rcoins">rcoins</a>, and <a href="https://github.com/CityRiverSpaces/visor">visor</a>). He is also a member of the Spatial Data Science across Languages (SDSL) community with special interest in cross-language projects. He is also one of the initiators of the <a href="https://rbanism.org/">Rbanism community</a> promoting reproducibility, automation and scalability in urbanism research using R. Claudiu will lead the development of <code>momer</code> and he will maintain it after completion.</p>
+<p><strong>John Doe</strong> is a research software engineer at the TU Delft Digital Competence Center … <strong>Jane Doe</strong> is a research software engineer at the TU Delft Digital Competence Center …John and Jane will carry out the software engineering work planned in this project with a shared 0.4FTE for the planned duration of the project.</p>
 </section>
 <section id="contributors" class="level2">
 <h2 class="anchored" data-anchor-id="contributors">Contributors</h2>
@@ -2275,7 +2276,7 @@ Who has been given the opportunity to provide feedback on the
 proposal? This should include any R Consortium & ISC members who the
 proposal has been discussed with.
 -->
-<p>ISC member <strong>Name Surname</strong><!--**Josiah Parry**--><!--TODO to be contacted-->, also member of the SDSL community, provided feedback on the proposal. <!--TODO specify content of feedback--></p>
+<p>ISC member <strong>???</strong><!--**Josiah Parry**--><!--TODO to be contacted-->, also member of the SDSL community, provided feedback on the proposal. <!--TODO specify content of feedback--></p>
 </section>
 </section>
 <section id="the-problem" class="level1">
@@ -2294,10 +2295,22 @@ It is important to cover:
  - [ ] Brief summary of existing work and previous attempts (e.g., relevant R packages)
  - [ ] If proposing changes to R itself: letter of support from R Core member
 -->
-<p>Urban morphometrics is an growing sub-field of urban morphology that enables scalable quantitative analysis of urban form. <!-- TODO ref. to Fleischmann --> The field of urban morphometrics is inherently programmatic and has been heavily driven and promoted by the Python library <a href="https://docs.momepy.org/en/stable/index.html"><code>momepy</code></a> <span class="citation" data-cites="fleischmann2019">(<a href="#ref-fleischmann2019" role="doc-biblioref">Fleischmann 2019</a>)</span>. While <code>momepy</code> has played an important role in making the quantitative analysis of urban form accessible to many, it is limited to users of the Python programming language.</p>
-<p>Moreover, a large part of urban morphology research is conducted with GUI-based tools and qualitative interpretation, which limits the kind of analytical questions that can be asked. Automated, reproducible and scalable urban morphology research can only be truly achieved in a programmatic way. Considering that those three objectives are central to the mission of the Rbanism community which the applicant has co-initiated and which has been growing steadily, <code>momer</code> is an opportunity to further promote those standards and enable quantitative research alongside <code>momepy</code>.</p>
+<p>Urban morphometrics is a growing sub-field of urban morphology that enables scalable quantitative analysis of urban form. The field of urban morphometrics is inherently programmatic and has been heavily driven and promoted by the Python library <a href="https://docs.momepy.org/en/stable/index.html"><code>momepy</code></a> <span class="citation" data-cites="fleischmann2019">(<a href="#ref-fleischmann2019" role="doc-biblioref">Fleischmann 2019</a>)</span>. While <code>momepy</code> has played an important role in making the quantitative analysis of urban form accessible to many, it is limited to users of the Python programming language.</p>
+<p>Moreover, a large part of urban morphology research is conducted with GUI-based tools and qualitative interpretation, which limits the kind of analytical questions that researchers and practitioners can ask. Automated, reproducible and scalable urban morphology research can only be effectively achieved in a programmatic way. Considering that those three objectives are central to the mission of the Rbanism community which the applicant has co-initiated and which has been growing steadily, <code>momer</code> is an opportunity to further promote those standards and enable quantitative research alongside <code>momepy</code>.</p>
 <p>Currently, a number of R packages provide some functionality for morphometric analysis, but they do not meet the level of comprehensiveness of <code>momepy</code>. Most prominent examples are the <code>foot</code> package <span class="citation" data-cites="foot2021">(<a href="#ref-foot2021" role="doc-biblioref">WorldPop Research Group, University of Southampton 2021</a>)</span>, which focuses on processing building footprints, and the <code>vectormetrics</code> package <span class="citation" data-cites="matuszek2024">(<a href="#ref-matuszek2024" role="doc-biblioref">Matuszek et al. 2024</a>)</span>, which provides tools for landscape and shape metrics. While the former is limited to building footprint analysis the latter is is only meant to analyse polygon data and is not specifically designed for the analysis of urban form elements.</p>
-<p><code>momer</code> will expose the R community (existing and new R users) to a comprehensive and up-to-date set of tools and methods for urban morphometrics assembled in <code>momepy</code> from a large portion of urban morphometrics literature.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Are there any other packages which should be mentioned here?</p>
+</div>
+</div>
 </section>
 <section id="the-proposal" class="level1">
 <h1>The proposal</h1>
@@ -2318,10 +2331,10 @@ section.
 
 Include concrete actions you will take and estimated timeline.
 -->
-<p>The project aims to develop <code>momer</code>, an R package that wraps the Python library <code>momepy</code> using the <code>reticulate</code> package and sets up a synchronised documentation system.</p>
+<p>The project aims to develop <code>momer</code>, an R package that wraps the Python library <code>momepy</code> using the <code>reticulate</code> package and a mirrored documentation.</p>
 <p><code>momer</code> will enable R users to perform urban morphometric analyses without needing to switch to Python, thereby broadening the reach of <code>momepy</code> and increasing the adoption of morphometric methodologies.</p>
 <p>The development of <code>momer</code> is timely as <code>momepy</code> is approaching a major release (v1.0.0) which will stabilise its API, making it easier to maintain the R wrapper in the long term.</p>
-<p>The project will be structured around four main milestones over a ???-month period, from initial setup and basic wrappers to final review and release.</p>
+<p>The project will be structured around four main milestones over a 12-month period, from initial setup and basic wrappers to final review and release.</p>
 </section>
 <section id="detail" class="level2">
 <h2 class="anchored" data-anchor-id="detail">Detail</h2>
@@ -2336,30 +2349,29 @@ Depending on project type the detail section should include:
 <!--
 What is the smallest thing you can build that delivers value to your users?
 -->
-<p>The minimum viable product is a package that wraps all core functions of <code>momepy</code> and mirrors its documentation (without synchronising).</p>
+<p>The minimum viable product is an R package that (1) wraps all core functions of <code>momepy</code>, (2) mirrors its documentation, and (3) includes a detailed documentation for maintainers on how to update the wrappers and documentation with future <code>momepy</code> releases.</p>
 </section>
 <section id="architecture" class="level3">
 <h3 class="anchored" data-anchor-id="architecture">Architecture</h3>
 <!--
 What does the high-level architecture look like?
 -->
-<p><code>momer</code> will wrap <code>momepy</code> functions with <code>reticulate</code> and will be organised into the same nine modules, namely: “Managing morphological elements”, “Measuring dimension”, “Measuring shape”, “Measuring spatial distribution”, “Measuring intensity”, “Measuring diversity”, “Measuring connectivity”, “Measuring streetscape”, and “Data preprocessing”.</p>
-<p><code>momer</code> will also be set up with a script on CI to automate the generation of documentation</p>
+<p><code>momer</code> will wrap exported <code>momepy</code> functions with <code>reticulate</code> and will be organised into the same nine modules, namely: <code>elements</code>, <code>dimension</code>, <code>shape</code>, <code>distribution</code>, <code>intensity</code>, <code>diversity</code>, <code>connectivity</code>, <code>streetscape</code>, and <code>preprocessing</code>.</p>
+<p>We also aim to set up a workflow to automate the generation of <code>roxygen2</code> documentation to be used for the generation of a <code>pkgdown</code> website.</p>
 </section>
 <section id="assumptions" class="level3">
 <h3 class="anchored" data-anchor-id="assumptions">Assumptions</h3>
 <!--
 What assumptions are you making that, if proven false, would invalidate the project?
 -->
-<p>One of the main assumptions is that, according to creator and maintainer of <code>momepy</code> ???, with the upcoming major release, the <code>momepy</code> API will be kept stable, which will allow <code>momer</code> to be feasibly maintained.</p>
-<p>We also assume that there is a feasible way of mirroring the latest version of the documentation with every <code>momepy</code> release automatically.</p>
+<p>One of the main assumptions is that with the upcoming major release, the <code>momepy</code> API will remain stable, which will allow <code>momer</code> to be feasibly maintained. We also assume that there is a feasible way of mirroring the latest version of the documentation with every <code>momepy</code> release automatically.</p>
 </section>
 <section id="external-dependencies" class="level3">
 <h3 class="anchored" data-anchor-id="external-dependencies">External dependencies</h3>
 <!--
 What external dependencies does the project have (e.g. libraries, services, other projects, etc.)?
 -->
-<p>The project primarily depends on the wrapped Python library <code>momepy</code> and the R package <code>reticulate</code> used for wrapping. The user</p>
+<p>The project primarily depends on the wrapped Python library <code>momepy</code> and the R package <code>reticulate</code> used for wrapping. The user needs to have Python installed with <code>momepy</code> and its dependencies.</p>
 </section>
 </section>
 </section>
@@ -2395,8 +2407,8 @@ and the ISC need to have a means of tracking delivery
 <ul>
 <li>Set up the GitHub repository with necessary documentation and contribution guidelines.</li>
 <li>Implement basic wrappers for core <code>momepy</code> functions using <code>reticulate</code>.</li>
-<li>Assess risks related to wrapping and devise a mitigation strategy.</li>
-<li>Specify data type translation from Python <code>sf</code>-compatible objects.</li>
+<li>Devise a mitigation strategy for risks related to wrapping.</li>
+<li>Specify data type translation from Python to <code>sf</code> objects.</li>
 <li>Initial testing to ensure functionality.</li>
 </ul></li>
 <li>Comprehensive wrappers and testing (Month 3-6):
@@ -2503,7 +2515,7 @@ along the way
 How could this be extended / developed in the future by yourself
 and/or the community in general?
 -->
-<p><code>momer</code> is expression of the sustained interest of the Spatial Data Science across Languages (SDSL) community in cross-language projects. It is part of the <code>momex</code> initiative aiming to build a cross-language infrastructure for morphometrics. In the long term, we aim to gradually develop low-level infrastructure with bindings to multiple languages, including R. Carried out in an incremental way and targeting the most challenging use cases, such an infrastructure will lead to higher performance</p>
+<p><code>momer</code> is expression of the sustained interest of the Spatial Data Science across Languages (SDSL) community in cross-language projects. It is part of the <code>momex</code> initiative aiming to build a cross-language infrastructure for morphometrics. In the long term, we aim to gradually develop low-level infrastructure enabling bindings to multiple languages, including R. Carried out in an incremental way and targeting the most challenging use cases, such an infrastructure will lead to improved performance and maximised community exposure. The <code>momer</code> project is instrumental to that end as it will grow a critical mass of users beyond Python and will help identify pressing high-level cross-language challenges.</p>
 <div class="refs">
 
 </div>
