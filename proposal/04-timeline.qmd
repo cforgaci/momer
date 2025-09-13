@@ -115,3 +115,7 @@ The requested budget will be used for labor costs divided by period, as follows:
 4. Final review and release (Month 11-12): €8,000
 
 Total: €40,000
+
+::: callout-note
+Is this budget reasonable? To be discussed with ISC committee member, former ISC grantee, and anyone experienced in writing a similar wrapper.
+:::
