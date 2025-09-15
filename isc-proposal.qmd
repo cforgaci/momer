@@ -6,12 +6,7 @@ author:
     affiliations:
       - "Department of Urbanism, Delft University of Technology"
     
-  - name: John Doe
-    orcid: 0000-0000-0000-0000
-    affiliations:
-      - "Digital Competence Center, Delft University of Technology"
-  
-  - name: Jane Doe
+  - name: Elviss Dvinskis
     orcid: 0000-0000-0000-0000
     affiliations:
       - "Digital Competence Center, Delft University of Technology"

@@ -34,7 +34,7 @@ Depending on project type the detail section should include:
 What is the smallest thing you can build that delivers value to your users?
 -->
 
-The minimum viable product is an R package that (1) wraps all core functions of `momepy`, (2) mirrors its documentation, and (3) includes a detailed documentation for maintainers on how to update the wrappers and documentation with future `momepy` releases.
+The minimum viable product is an R package that (1) wraps all core functions of `momepy`, (2) ensures reliable and correct bidirectional data conversion between Python `geopandas` and R `sf` objects, as well as Python `networkx` and R `sfnetwork` objects, (3) mirrors its documentation, and (4) includes a detailed documentation for maintainers on how to update the wrappers and documentation with future `momepy` releases.
 
 ### Architecture
 
@@ -42,7 +42,7 @@ The minimum viable product is an R package that (1) wraps all core functions of 
 What does the high-level architecture look like?
 -->
 
-`momer` will wrap exported `momepy` functions with `reticulate` and will be organised into the same nine modules, namely: `elements`, `dimension`, `shape`, `distribution`, `intensity`, `diversity`, `connectivity`, `streetscape`, and `preprocessing`. All functions will be `sf`-compatible. We also aim to set up a workflow to automate the generation of `roxygen2` documentation to be used for the generation of a `pkgdown` website.
+`momer` will wrap exported `momepy` functions with `reticulate` and will be organised into the same nine modules, namely: `elements`, `dimension`, `shape`, `distribution`, `intensity`, `diversity`, `connectivity`, `streetscape`, and `preprocessing`. All functions will be `sf`-compatible and bidirectional conversion between Python and R will be achieved in memory via WKB. We also aim to set up a workflow to automate the generation of `roxygen2` documentation to be used for the generation of a `pkgdown` website.
 
 ### Assumptions
 
@@ -50,7 +50,7 @@ What does the high-level architecture look like?
 What assumptions are you making that, if proven false, would invalidate the project?
 -->
 
-One of the main assumptions is that with the upcoming major release, the `momepy` API will remain stable, which will allow `momer` to be feasibly maintained. We also assume that there is a feasible way of mirroring the latest version of the documentation with every `momepy` release automatically.
+One of the main assumptions is that with the upcoming major release, the `momepy` API will remain stable, which will allow `momer` to be feasibly maintained. The need for a stable, non-conflicting Python environment also poses a challenge which we assume we can overcome with detailed documentation. We also assume that there is a feasible way of keeping the documentation of `momer` in sync with every `momepy` release.
 
 ### External dependencies
 

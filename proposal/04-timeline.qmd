@@ -36,27 +36,33 @@ and the ISC need to have a means of tracking delivery
 
 The project will be structured by the following milestones:
 
-1. Initial set-up and basic wrappers (Month 1-2):
-   - Set up the GitHub repository with necessary documentation and contribution guidelines.
-   - Implement basic wrappers for core `momepy` functions using `reticulate`.
-   - Devise a mitigation strategy for risks related to wrapping.
-   - Specify data type translation from Python to `sf` objects.
-   - Initial testing to ensure functionality.
+1. Initial setup and basic wrappers (Month 1-4):
+   - Set up the GitHub repository with contribution guidelines.
+   - Set up R package skeleton with installation instructions.
+   - Configure `reticulate` and document environment setup instructions.
+   - Reuse or write reliable helper functions for bidirectional data conversion between Python `geopandas` and R `sf` objects, as well as Python `networkx` and R `sfnetwork` objects, also considering edge cases.
+   - Benchmark processing overhead of data conversion layer.
+   - Wrap 5-10 core `momepy` functions.
+   - Test wrapped functions on sample dataset and workflow.
+   - Add basic documentation.
    
-2. Comprehensive wrappers and testing (Month 3-6):
-   - Expand wrappers to cover all major functionalities of `momepy`.
-   - Develop a suite of unit tests to ensure reliability and correctness.
-   - Begin drafting detailed documentation for each function.
+2. Comprehensive wrappers and testing (Month 5-7):
+   - Develop a suite of unit tests and integration tests to ensure reliability and correctness.
+   - Expand wrappers to cover major functionalities of `momepy`.
+   - Ensure compatibility with tidy workflows.
+   - Draft detailed documentation for each wrapped function.
    
-3. Documentation and vignettes (Month 7-10):
-   - Set up automatic synchronisation of `momepy` documentation with `momer` on CI
-   - Finalize comprehensive documentation, including examples and use cases.
+3. Documentation and vignettes (Month 8-10):
+   - Set up documentation synchronisation workflow between `momepy` and `momer`.
+   - Generate comprehensive documentation, including examples.
+   - Set up `pkgdown` website with API reference.
    - Create vignettes demonstrating typical workflows and applications of `momer`.
    - Conduct user testing and gather feedback for improvements.
    
-4. Final review and release (Month 11-12):
+4. Final review, maintenance setup, and release (Month 11-12):
    - Address any issues or feedback from user testing.
    - Perform a final review of the code base and documentation.
+   - Set up GitHub Actions for CI.
    - Prepare for the official release of `momer` on CRAN and GitHub.
    - Publicize the release through blog posts, social media, and relevant forums.
    - Disseminate in the developer community (e.g., SDSL, ISUF, Rbanism) to attract contributions.
@@ -117,5 +123,5 @@ The requested budget will be used for labor costs divided by period, as follows:
 Total: €40,000
 
 ::: callout-note
-Is this budget reasonable? To be discussed with ISC committee member, former ISC grantee, and anyone experienced in writing a similar wrapper.
+Is this budget reasonable? To be discussed with ISC committee member, former ISC grantee, and/or anyone experienced in writing a similar wrapper.
 :::

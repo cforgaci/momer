@@ -37,7 +37,7 @@ Who are the people who have actively helped with this proposal but
 won't necessarily be on the core project team later?
 -->
 
-The creator of `momepy` **???** and members of the SDSL community **???**, **???** and **???** provided input at the proposal stage. <!--TODO specify content of active help-->
+**Maurits Kok** from Digital Competence Center at TU Delft, the creator of `momepy` **???** and members of the SDSL community **???**, **???** and **???** provided input at the proposal stage. <!--TODO specify content of active help-->
 
 ## Consulted
 <!--
