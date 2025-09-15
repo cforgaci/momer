@@ -36,6 +36,12 @@ What is the smallest thing you can build that delivers value to your users?
 
 The minimum viable product is an R package that (1) wraps all core functions of `momepy`, (2) ensures reliable and correct bidirectional data conversion between Python `geopandas` and R `sf` objects, as well as Python `networkx` and R `sfnetwork` objects, (3) mirrors its documentation, and (4) includes a detailed documentation for maintainers on how to update the wrappers and documentation with future `momepy` releases.
 
+::: {.callout}
+
+Martin, which `momepy` modules would be most important to wrap in a MVP?
+
+:::
+
 ### Architecture
 
 <!--
