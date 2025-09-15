@@ -2278,8 +2278,8 @@ the proposal gets accepted and are already signed up and rearing to
 go? Briefly describe all participants and the skills they will bring
 to the project.
 -->
-<p><strong>Claudiu Forgaci</strong> is assistant professor of urban design and analytics engaged in urban morphology research and experienced in R package development (see <a href="https://github.com/CityRiverSpaces/rcrisp">rcrisp</a>, <a href="https://github.com/CityRiverSpaces/rcoins">rcoins</a>, and <a href="https://github.com/CityRiverSpaces/visor">visor</a>). He is also a member of the Spatial Data Science across Languages (SDSL) community with special interest in cross-language projects. He is also one of the initiators of the <a href="https://rbanism.org/">Rbanism community</a> promoting reproducibility, automation and scalability in urbanism research using R. Claudiu will lead the development of <code>momer</code> and he will maintain it after completion.</p>
-<p><strong>John Doe</strong> is a research software engineer at the TU Delft Digital Competence Center … <strong>Jane Doe</strong> is a research software engineer at the TU Delft Digital Competence Center …John and Jane will carry out the software engineering work planned in this project with a shared 0.4FTE for the planned duration of the project.</p>
+<p><a href><strong>Claudiu Forgaci</strong></a> is assistant professor of urban design and analytics engaged in urban morphology research and experienced in R package development (see <a href="https://github.com/CityRiverSpaces/rcrisp">rcrisp</a>, <a href="https://github.com/CityRiverSpaces/rcoins">rcoins</a>, and <a href="https://github.com/CityRiverSpaces/visor">visor</a>). He is also a member of the Spatial Data Science across Languages (SDSL) community with special interest in cross-language projects. He is also one of the initiators of the <a href="https://rbanism.org/">Rbanism community</a> promoting reproducibility, automation and scalability in urbanism research using R. Claudiu will lead the development of <code>momer</code> and he will maintain it after completion.</p>
+<p><a href="https://www.tudelft.nl/en/digital-competence-centre/team/elviss-dvinskis"><strong>Elviss Dvinskis</strong></a> is a research data engineer at the TU Delft Digital Competence Center (DCC). With an extenside <a href="https://www.tudelft.nl/digital-competence-centre/projects">project history</a> and <a href="https://www.tudelft.nl/digital-competence-centre/our-expertise">expertise</a>, the DCC provides in-kind support for researchers at TU Delft. Elviss will carry out the software engineering work planned in this project with a shared 0.4FTE for the planned duration of the project.</p>
 </section>
 <section id="contributors" class="level2">
 <h2 class="anchored" data-anchor-id="contributors">Contributors</h2>
@@ -2352,7 +2352,7 @@ section.
 Include concrete actions you will take and estimated timeline.
 -->
 <!-- TODO say something about sf-compatibility in the following sentence -->
-<p>The project aims to develop <code>momer</code>, an R package that wraps the Python library <code>momepy</code> using the <code>reticulate</code> package and a mirrored documentation. <code>momer</code> will enable R users to perform urban morphometric analyses in a fully <code>sf</code>-compatible way, without needing to switch to Python, thereby broadening the reach of <code>momepy</code> and increasing the adoption of morphometric methodologies. The development of <code>momer</code> is timely as <code>momepy</code> is approaching a major release (v1.0.0) which will stabilise its API, making it easier to maintain the R wrapper in the long term. The project will be structured around four main milestones over a 12-month period, from initial setup and basic wrappers to final review and release.</p>
+<p>The project aims to develop <code>momer</code>, an R package that wraps the Python library <code>momepy</code> using the <code>reticulate</code> package and a mirrored documentation. <code>momer</code> will enable R users to perform urban morphometric analyses in a fully <code>sf</code>-compatible way, without needing to switch to Python, thereby broadening the reach of <code>momepy</code> and increasing the adoption of morphometric methodologies. The development of <code>momer</code> is timely as <code>momepy</code> is approaching a major release (v1.0.0) which will stabilise its API, making it easier to maintain the R wrapper in the long term. The project will be structured around four main milestones over a 12-month period, from initial setup and basic wrappers to final review and release. The project will follow the latest best practices for research software development and comply with CRAN requirements from the outset.</p>
 </section>
 <section id="detail" class="level2">
 <h2 class="anchored" data-anchor-id="detail">Detail</h2>
@@ -2368,6 +2368,16 @@ Depending on project type the detail section should include:
 What is the smallest thing you can build that delivers value to your users?
 -->
 <p>The minimum viable product is an R package that (1) wraps all core functions of <code>momepy</code>, (2) ensures reliable and correct bidirectional data conversion between Python <code>geopandas</code> and R <code>sf</code> objects, as well as Python <code>networkx</code> and R <code>sfnetwork</code> objects, (3) mirrors its documentation, and (4) includes a detailed documentation for maintainers on how to update the wrappers and documentation with future <code>momepy</code> releases.</p>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Martin, which <code>momepy</code> modules would be most important to wrap in a MVP?</p>
+</div>
+</div>
+</div>
 </section>
 <section id="architecture" class="level3">
 <h3 class="anchored" data-anchor-id="architecture">Architecture</h3>
