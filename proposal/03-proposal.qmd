@@ -18,7 +18,7 @@ Include concrete actions you will take and estimated timeline.
 -->
 
 <!-- TODO say something about sf-compatibility in the following sentence -->
-The project aims to develop `momer`, an R package that wraps the Python library `momepy` using the `reticulate` package and a mirrored documentation. `momer` will enable R users to perform urban morphometric analyses in a fully `sf`-compatible way, without needing to switch to Python, thereby broadening the reach of `momepy` and increasing the adoption of morphometric methodologies. The development of `momer` is timely as `momepy` is approaching a major release (v1.0.0) which will stabilise its API, making it easier to maintain the R wrapper in the long term. The project will be structured around four main milestones over a 12-month period, from initial setup and basic wrappers to final review and release.
+The project aims to develop `momer`, an R package that wraps the Python library `momepy` using the `reticulate` package and a mirrored documentation. `momer` will enable R users to perform urban morphometric analyses in a fully `sf`-compatible way, without needing to switch to Python, thereby broadening the reach of `momepy` and increasing the adoption of morphometric methodologies. The development of `momer` is timely as `momepy` is approaching a major release (v1.0.0) which will stabilise its API, making it easier to maintain the R wrapper in the long term. The project will be structured around four main milestones over a 12-month period, from initial setup and basic wrappers to final review and release. The project will follow the latest best practices for research software development and comply with CRAN requirements from the outset.
 
 ## Detail
 <!--
