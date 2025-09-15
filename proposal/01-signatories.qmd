@@ -9,15 +9,7 @@ An optional section would be for R-Core signatories where changes to R
 are proposed.
 -->
 
-Members of:
-
-- the [Rbanism community](https://rbanism.org/), namely ,
-- the [r-spatial community](https://r-spatial.org/), namely ,
-- the [geocompr community](https://r.geocompx.org/), namely ,
-- the [ISUF community]() namely , and 
-- the [SDSL community](https://spatial-data-science.github.io/) namely  
-
-have read this proposal and confirm the relevance of this project and its expected impact on the R ecosystem.
+Members of the [Rbanism community](https://rbanism.org/), represented by Clémentine Cottineau-Mugadza, Daniele Cannatella and Claudiu Forgaci; the [r-spatial community](https://r-spatial.org/), represented by ; the [geocompr community](https://r.geocompx.org/), represented by ; the [ISUF community]() represented by ; and the [SDSL community](https://spatial-data-science.github.io/) represented by have read this proposal and confirm the relevance of this project and its expected high positive impact on the R ecosystem.
 
 ## Project team
 <!--
