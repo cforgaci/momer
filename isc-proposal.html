@@ -7,9 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Claudiu Forgaci">
-<meta name="author" content="John Doe">
-<meta name="author" content="Jane Doe">
-<meta name="dcterms.date" content="2025-09-13">
+<meta name="author" content="Elviss Dvinskis">
+<meta name="dcterms.date" content="2025-09-15">
 
 <title>momer: Extending momepy to R users</title>
 <style>
@@ -2214,15 +2213,7 @@ vertical-align: -.125em;
           </p>
       </div>
     <div class="quarto-title-meta-contents">
-    <p class="author">John Doe <a href="https://orcid.org/0000-0000-0000-0000" class="quarto-title-author-orcid"> <img role="img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            Digital Competence Center, Delft University of Technology
-          </p>
-      </div>
-    <div class="quarto-title-meta-contents">
-    <p class="author">Jane Doe <a href="https://orcid.org/0000-0000-0000-0000" class="quarto-title-author-orcid"> <img role="img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+    <p class="author">Elviss Dvinskis <a href="https://orcid.org/0000-0000-0000-0000" class="quarto-title-author-orcid"> <img role="img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
   </div>
   <div class="quarto-title-meta-contents">
         <p class="affiliation">
@@ -2237,7 +2228,7 @@ vertical-align: -.125em;
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2025-09-13</p>
+      <p class="date">2025-09-15</p>
     </div>
   </div>
   
@@ -2296,7 +2287,7 @@ to the project.
 Who are the people who have actively helped with this proposal but
 won't necessarily be on the core project team later?
 -->
-<p>The creator of <code>momepy</code> <strong>???</strong> and members of the SDSL community <strong>???</strong>, <strong>???</strong> and <strong>???</strong> provided input at the proposal stage. <!--TODO specify content of active help--></p>
+<p><strong>Maurits Kok</strong> from Digital Competence Center at TU Delft, the creator of <code>momepy</code> <strong>???</strong> and members of the SDSL community <strong>???</strong>, <strong>???</strong> and <strong>???</strong> provided input at the proposal stage. <!--TODO specify content of active help--></p>
 </section>
 <section id="consulted" class="level2">
 <h2 class="anchored" data-anchor-id="consulted">Consulted</h2>
@@ -2376,21 +2367,21 @@ Depending on project type the detail section should include:
 <!--
 What is the smallest thing you can build that delivers value to your users?
 -->
-<p>The minimum viable product is an R package that (1) wraps all core functions of <code>momepy</code>, (2) mirrors its documentation, and (3) includes a detailed documentation for maintainers on how to update the wrappers and documentation with future <code>momepy</code> releases.</p>
+<p>The minimum viable product is an R package that (1) wraps all core functions of <code>momepy</code>, (2) ensures reliable and correct bidirectional data conversion between Python <code>geopandas</code> and R <code>sf</code> objects, as well as Python <code>networkx</code> and R <code>sfnetwork</code> objects, (3) mirrors its documentation, and (4) includes a detailed documentation for maintainers on how to update the wrappers and documentation with future <code>momepy</code> releases.</p>
 </section>
 <section id="architecture" class="level3">
 <h3 class="anchored" data-anchor-id="architecture">Architecture</h3>
 <!--
 What does the high-level architecture look like?
 -->
-<p><code>momer</code> will wrap exported <code>momepy</code> functions with <code>reticulate</code> and will be organised into the same nine modules, namely: <code>elements</code>, <code>dimension</code>, <code>shape</code>, <code>distribution</code>, <code>intensity</code>, <code>diversity</code>, <code>connectivity</code>, <code>streetscape</code>, and <code>preprocessing</code>. All functions will be <code>sf</code>-compatible. We also aim to set up a workflow to automate the generation of <code>roxygen2</code> documentation to be used for the generation of a <code>pkgdown</code> website.</p>
+<p><code>momer</code> will wrap exported <code>momepy</code> functions with <code>reticulate</code> and will be organised into the same nine modules, namely: <code>elements</code>, <code>dimension</code>, <code>shape</code>, <code>distribution</code>, <code>intensity</code>, <code>diversity</code>, <code>connectivity</code>, <code>streetscape</code>, and <code>preprocessing</code>. All functions will be <code>sf</code>-compatible and bidirectional conversion between Python and R will be achieved in memory via WKB. We also aim to set up a workflow to automate the generation of <code>roxygen2</code> documentation to be used for the generation of a <code>pkgdown</code> website.</p>
 </section>
 <section id="assumptions" class="level3">
 <h3 class="anchored" data-anchor-id="assumptions">Assumptions</h3>
 <!--
 What assumptions are you making that, if proven false, would invalidate the project?
 -->
-<p>One of the main assumptions is that with the upcoming major release, the <code>momepy</code> API will remain stable, which will allow <code>momer</code> to be feasibly maintained. We also assume that there is a feasible way of mirroring the latest version of the documentation with every <code>momepy</code> release automatically.</p>
+<p>One of the main assumptions is that with the upcoming major release, the <code>momepy</code> API will remain stable, which will allow <code>momer</code> to be feasibly maintained. The need for a stable, non-conflicting Python environment also poses a challenge which we assume we can overcome with detailed documentation. We also assume that there is a feasible way of keeping the documentation of <code>momer</code> in sync with every <code>momepy</code> release.</p>
 </section>
 <section id="external-dependencies" class="level3">
 <h3 class="anchored" data-anchor-id="external-dependencies">External dependencies</h3>
@@ -2429,31 +2420,37 @@ and the ISC need to have a means of tracking delivery
 -->
 <p>The project will be structured by the following milestones:</p>
 <ol type="1">
-<li>Initial set-up and basic wrappers (Month 1-2):
+<li>Initial setup and basic wrappers (Month 1-4):
 <ul>
-<li>Set up the GitHub repository with necessary documentation and contribution guidelines.</li>
-<li>Implement basic wrappers for core <code>momepy</code> functions using <code>reticulate</code>.</li>
-<li>Devise a mitigation strategy for risks related to wrapping.</li>
-<li>Specify data type translation from Python to <code>sf</code> objects.</li>
-<li>Initial testing to ensure functionality.</li>
+<li>Set up the GitHub repository with contribution guidelines.</li>
+<li>Set up R package skeleton with installation instructions.</li>
+<li>Configure <code>reticulate</code> and document environment setup instructions.</li>
+<li>Reuse or write reliable helper functions for bidirectional data conversion between Python <code>geopandas</code> and R <code>sf</code> objects, as well as Python <code>networkx</code> and R <code>sfnetwork</code> objects, also considering edge cases.</li>
+<li>Benchmark processing overhead of data conversion layer.</li>
+<li>Wrap 5-10 core <code>momepy</code> functions.</li>
+<li>Test wrapped functions on sample dataset and workflow.</li>
+<li>Add basic documentation.</li>
 </ul></li>
-<li>Comprehensive wrappers and testing (Month 3-6):
+<li>Comprehensive wrappers and testing (Month 5-7):
 <ul>
-<li>Expand wrappers to cover all major functionalities of <code>momepy</code>.</li>
-<li>Develop a suite of unit tests to ensure reliability and correctness.</li>
-<li>Begin drafting detailed documentation for each function.</li>
+<li>Develop a suite of unit tests and integration tests to ensure reliability and correctness.</li>
+<li>Expand wrappers to cover major functionalities of <code>momepy</code>.</li>
+<li>Ensure compatibility with tidy workflows.</li>
+<li>Draft detailed documentation for each wrapped function.</li>
 </ul></li>
-<li>Documentation and vignettes (Month 7-10):
+<li>Documentation and vignettes (Month 8-10):
 <ul>
-<li>Set up automatic synchronisation of <code>momepy</code> documentation with <code>momer</code> on CI</li>
-<li>Finalize comprehensive documentation, including examples and use cases.</li>
+<li>Set up documentation synchronisation workflow between <code>momepy</code> and <code>momer</code>.</li>
+<li>Generate comprehensive documentation, including examples.</li>
+<li>Set up <code>pkgdown</code> website with API reference.</li>
 <li>Create vignettes demonstrating typical workflows and applications of <code>momer</code>.</li>
 <li>Conduct user testing and gather feedback for improvements.</li>
 </ul></li>
-<li>Final review and release (Month 11-12):
+<li>Final review, maintenance setup, and release (Month 11-12):
 <ul>
 <li>Address any issues or feedback from user testing.</li>
 <li>Perform a final review of the code base and documentation.</li>
+<li>Set up GitHub Actions for CI.</li>
 <li>Prepare for the official release of <code>momer</code> on CRAN and GitHub.</li>
 <li>Publicize the release through blog posts, social media, and relevant forums.</li>
 <li>Disseminate in the developer community (e.g., SDSL, ISUF, Rbanism) to attract contributions.</li>
@@ -2513,7 +2510,7 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Is this budget reasonable? To be discussed with ISC committee member, former ISC grantee, and anyone experienced in writing a similar wrapper.</p>
+<p>Is this budget reasonable? To be discussed with ISC committee member, former ISC grantee, and/or anyone experienced in writing a similar wrapper.</p>
 </div>
 </div>
 </section>
