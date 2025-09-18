@@ -115,12 +115,12 @@ out to us.
 
 The requested budget will be used for labor costs divided by period, as follows:
 
-1. Initial set-up and basic wrappers (Month 1-2): €8,000
-2. Comprehensive wrappers and testing (Month 3-6): €16,000
-3. Documentation and vignettes (Month 7-10): €16,000
-4. Final review and release (Month 11-12): €8,000
+1. Initial set-up and basic wrappers (Month 1-4): $
+2. Comprehensive wrappers and testing (Month 5-6): $
+3. Documentation and vignettes (Month 7-10): $
+4. Final review and release (Month 11-12): $
 
-Total: €40,000
+Total: $
 
 ::: callout-note
 Is this budget reasonable? To be discussed with ISC committee member, former ISC grantee, and/or anyone experienced in writing a similar wrapper.
